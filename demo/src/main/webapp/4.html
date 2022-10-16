@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<title>Leave letter submission</title>
+<link rel="stylesheet"  href="css/4.css">
+<script type="text/javascript" src="main.js"></script>
+<script>src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.9.1/html2pdf.bundle.min.js"</script>
+<nav> 
+  <ul>
+      <li><a href="home.html">Home</a></li>
+      <li><a href="news">News</a></li>
+      <li><a href="contact">Contact</a></li>
+      <li><a href="about">About</a></li>
+  </ul>
+</nav>
+    <head>
+        <img src="css/alagappa.jpg" class="user">
+     <h1>x
+      ALAGAPPA CHETTIAR GOVERNMENT COLLEGE OF ENGINEERING AND TECHNOLOGY <br>KARAIKUDI-630003
+    </h1>
+    </head>
+    <body>
+      <form action="indexAction.jsp" method="POST" id="fillup">
+      
+        <div class="details">
+        <label for fname>Name:</label>
+        <input type="text"  id="n" name="name"><br>
+        <label for deptname>Department:</label>
+         <input type="text" id="d" name="dept"><br>
+        <label for rollno>Register No:</label>
+        <input type="number"  id="r" name="rollNo"><br>
+        <label for to>To:</label>
+         <input type="text" id="t" name="toadd"><br>
+        <label for reason>Reason:</label>
+        <input type="text"  name="reason"><br>
+        <label for fdate>From Date:</label>
+        <input type="date"  name="fdate"><br>
+        <label for tdate>To Date:</label>
+        <input type="date" name="tdate"><br>
+        <input type="submit" value="submit">
+        
+        </div>
+       
+      </form>
+    </body>
+</html>
